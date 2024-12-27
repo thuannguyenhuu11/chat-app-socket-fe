@@ -8,7 +8,7 @@ const Sidebar = () => {
   const { getUsers, users, selectedUser, setSelectedUser, isUsersLoading } =
     useChatStore();
 
-  //   const { onlineUsers } = useAuthStore();
+  // const { onlineUsers } = useAuthStore();
   const onlineUsers = ["1", "2", "3", "4", "5"];
 
   const [showOnlineOnly, setShowOnlineOnly] = useState(false);
